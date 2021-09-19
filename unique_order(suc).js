@@ -8,11 +8,11 @@ var uniqueInOrder = function (iterable){
             }
         };
         if(iterable[element1+1]!=iterable[element1]){
-            array+=[iterable[element1]]
+            array.push([iterable[element1]]);
         }
     };
     return array;
 }
-console.log(uniqueInOrder(['a','s','d']));
+console.log(typeof(uniqueInOrder(['a','s','d'])));
 
   
